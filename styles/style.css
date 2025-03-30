@@ -13,7 +13,7 @@
 .page {
   min-inline-size: 320px;
   min-block-size: 100dvb;
-  font-family: var(--main-font), sans-serif;
+  font-family: var(--main-font);
   background-color: var(--color-main);
   background-image: var(--background);
   background-position: center;
@@ -43,7 +43,7 @@
 }
 
 .header__logo {
-  font-family: var(--accent-font, sans-serif);
+  font-family: var(--accent-font);
   text-transform: uppercase;
   font-size: clamp(3.0625rem, 2.7104rem + 1.5023vw, 4.0625rem);
   line-height: 1;
@@ -52,7 +52,7 @@
 }
 
 .header__title {
-  font-family: var(--accent-font, sans-serif);
+  font-family: var(--accent-font);
   text-transform: uppercase;
   font-size: clamp(0.875rem, 0.6769rem + 0.8451vw, 1.4375rem);
   line-height: 1;

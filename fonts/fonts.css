@@ -21,6 +21,7 @@
 
   @supports (font-variation-settings: normal) {
     .page {
+      font-family: var(--main-font);
       font-weight: var(--main-weight);
     }
   }
