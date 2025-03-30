@@ -443,8 +443,13 @@ body:has(.footer__reminder[open]) {
 }
 
 @media (width <= 376px) {
+  .card__label-description {
+  right: 11px;
+  }
+
   .section__card-title {
     min-block-size: 54px;
+    line-height: 1.16;
   }
 
   .section__card-text {
