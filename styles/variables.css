@@ -1,1 +1,32 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+
+:root {
+    /*  fonts-family */
+    --main-font: Inter;
+    --accent-font: PressStart2P;
+
+    /*  fonts-weight */
+    --main-weight: 400;
+    --title-weight: 700;
+
+    /* width-card */
+    --main-width: clamp(375px, 48.61111vw, 700px);
+    --min-width: 375px;
+
+    /* color */
+    --color-main: rgba(255, 255, 255, 1);
+    --color-accent: rgba(0, 0, 0, 1);
+    --color-animation-fill: rgba(255, 0, 0, 1);
+    --color-heart-static: rgba(255, 255, 255, 1);
+    --color-heart-hover: rgba(0, 0, 0, 1);
+
+    /* border */
+    --border: 2px solid var(--color-accent);
+
+    /* background */
+    --background: 
+    repeating-linear-gradient(90deg, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+    repeating-linear-gradient(180deg, rgba(211, 211, 211, 1), rgba(211, 211, 211, 1) 2px, rgba(211, 211, 211, 0) 2px, rgba(211, 211, 211, 0) 4px),
+    repeating-linear-gradient(180deg, rgba(231, 231, 231, 1), rgba(26, 26, 26, 1));
+}
+

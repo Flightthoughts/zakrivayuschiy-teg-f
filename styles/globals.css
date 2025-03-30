@@ -10,6 +10,8 @@
 
 body {
   margin: 0;
+  font-size: 18px;
+  color: var(--color-accent);
 }
 
 h1,
@@ -35,6 +37,8 @@ input {
   color: currentColor;
   font-family: inherit;
   font-size: inherit;
+  border: none;
+  padding: 0;
 }
 
 ul,
