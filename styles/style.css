@@ -14,6 +14,7 @@
   min-inline-size: 320px;
   min-block-size: 100dvb;
   font-family: var(--main-font);
+  font-variation-settings: 'wght' var(--main-weight);
   background-color: var(--color-main);
   background-image: var(--background);
   background-position: center;
