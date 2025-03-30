@@ -23,12 +23,6 @@
   inline-size: 100%;
 }
 
-@supports (font-variation-settings: normal) {
-  .page  {
-    font-weight: var(--main-weight);
-  }
-}
-
 .header {
   margin-block-start: 100px;
   margin-block-end: 100px;
@@ -118,7 +112,7 @@
   }
 }
 
-.section__card-text  {
+.section__card-text {
   margin: 25px 25px 0;
   display: flex;
   flex-direction: column;
@@ -429,7 +423,7 @@ body:has(.footer__reminder[open]) {
     opacity: 0;
   }
 
-  to  {
+  to {
     opacity: 1;
   }
 }
