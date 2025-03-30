@@ -90,9 +90,6 @@
   object-fit: cover;
   object-position: center;
   z-index: 0;
-  border-bottom: var(--border);
-  border-top: var(--border);
-  
 }
 
 .card__label-description {
