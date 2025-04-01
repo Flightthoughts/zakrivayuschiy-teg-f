@@ -37,7 +37,7 @@
 }
 
 .block-width {
-  border: var(--border); 
+  border: var(--border);
   inline-size: var(--main-width);
   margin: 0 auto;
   background-color: var(--color-main);
@@ -159,7 +159,7 @@
   position: relative;
   overflow: hidden;
   transition: box-shadow 0.3s ease;
-  border: var(--border); 
+  border: var(--border);
 }
 
 .button:focus {
