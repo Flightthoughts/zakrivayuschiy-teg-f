@@ -82,6 +82,7 @@
 
 .section__card-label {
   position: relative;
+  block-size: var(--main-width);
   border-top: var(--border);
   border-bottom: var(--border);
 }
@@ -176,7 +177,7 @@
   position: absolute;
   left: 0;
   top: 0;
-  transition: transform 0.3s ease;
+  transition: transform 0.5s ease-in-out;
 }
 
 .button:hover::before {
@@ -234,7 +235,6 @@
 }
 
 .save-reminder-button_close .button__text {
-  block-size: min-content;
   text-transform: uppercase;
 }
 
