@@ -17,7 +17,7 @@
     --color-main: rgba(255, 255, 255, 1);
     --color-accent: rgba(0, 0, 0, 1);
     --color-animation-fill: rgba(255, 0, 0, 1);
-    --color-heart-static: rgba(255, 255, 255, 1);
+    --color-heart-static: transparent;
     --color-heart-hover: rgba(0, 0, 0, 1);
 
     /* border */
